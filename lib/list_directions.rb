@@ -19,7 +19,6 @@ class ListDirections
         x = "moved west by #{x_movement}\n" if x_movement > 0
         directions += y
         directions += x
-        p directions
       end
 
     end
